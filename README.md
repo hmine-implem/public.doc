@@ -23,28 +23,27 @@ https://pleasanter.org/partners_merit/
 
 ## 技術スタック
 
-・C#
-
+・C#  
 　ASP.NET Core MVC のコントローラを開発しています。  
 　画面レンダリングについては、プリザンターの独自実装の基盤をメンテナンスして開発しています。
 
-・Java Script
-
+・Java Script  
 　ローコード開発ツールでもあるプリザンターのJava Script基盤※ を開発し、ユーザに提供しています。  
 　クライアントサイドJava Script および サーバサイドJava Script の基盤を提供しています。
 
-・RDB
-
+・RDB  
 　SQL Server、PostgreSQL、MySQL マルチDB機能を提供しています。  
 　データベースのマイグレーションはプリザンターの独自実装のツールをメンテナンスして提供しています。
 
-・Azure
+・Linux  
+　プリザンターの構築基盤の選択肢として、Linux を使用することも可能です。  
+　.NETとRDBの基板上にプリザンターをインストールしたり、バージョンアップしたりすることができます。
 
+・Azure  
 　プリザンターの構築基盤の選択肢として、App Service と Azure SQL Database を使用することも可能です。  
 　保守・メンテナンスの作業を中心に、Azureのリソース上で作業を担当しています。
 
-・DockerおよびGitHub
-
+・DockerおよびGitHub  
 　プリザンターの構築基盤の選択肢としてDockerを使用することも可能です。  
 　Dockerの応用として、GitHub Actionsを使用した自動テスト環境も構築しています。
 
@@ -53,10 +52,19 @@ https://pleasanter.org/partners_merit/
 
 　プリザンターの機能追加を行っています。
 
-〈例〉  
-・マルチDB対応の種類にMySQLを追加しました。  
-・サーバサイド Java Script の基盤に新機能を追加しました。  
-・既存バグの指摘と修正を継続的に行っています。
+2025年  
+・プリザンターのインストール時に別サーバのMySQLを指定できる機能を追加。  
+・サーバスクリプトの条件に「一括削除前」、「一括削除後」を追加。  
+・プリザンターのDBをSQL ServerからMySQLに移行する機能を追加。  
+
+2024年  
+・対応データベースにMySQLを追加。  
+・ガイドの折り畳み機能を追加。  
+・エディタの選択肢一覧をフィルタする機能を追加。  
+・アクセス権の継承の設定に検索機能を追加。  
+
+その他  
+・いくつかの不具合解消に貢献。  
 
 ## 様々な活動
 
@@ -114,7 +122,16 @@ https://pleasanter.org/partners_merit/
 
 ## My interests/My studies/興味・学習
 
+・ITパスポート  
+・基本情報技術者  
 ・応用情報技術者
 
-## My articles/執筆した記事
+## Output/アウトプット
 
+・雑誌記事執筆  
+技術評論社『Software Design 2025年6月号』  
+└ローコード開発ツール「プリザンター」【4】システム間連携の実装例（IoT連携、生成AI連携）
+
+・登壇  
+Open Source Conference 2025 Tokyo/Spring  
+└『Webアプリ「プリザンター」のMySQL/PostgreSQL/SQLServerマルチ対応』
